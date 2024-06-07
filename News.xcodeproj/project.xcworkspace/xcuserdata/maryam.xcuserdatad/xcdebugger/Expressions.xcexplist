@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "EndPointProviderProtocol.asURLRequest():&#x670;EndpointProvider.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "components">
+            </PersistentString>
+            <PersistentString
+               value = "components.url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ExploreService.fetchListings():ExploreService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.statusCod">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in &#x200c;BookmarkView.body.getter:&#x200c;BookmarkView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.favorites">
+            </PersistentString>
+            <PersistentString
+               value = "viewModel.favoriteListings">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ExploreViewModel.bookmarks.willset:ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bookmarks.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreService.fetchListings(query:):ExploreService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "completion">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #2 in ListingItemView.body.getter:ListingItemView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "listing.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.combineFetch():ExploreViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ListDetailView.addOrRemoveBokmark(title:):ListDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.bookmarks">
+            </PersistentString>
+            <PersistentString
+               value = "bookmarks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsService.asyncFetch&lt;&#x3c4;_0_0&gt;(endpoint:responseModel:):NewsService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.handleResponse(data: data, response: response)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.favorites.getter:ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.array(forKey: &quot;bookmarks&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in NewsService.init():NewsService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BookmarkManager.contains(article:):BookmarkManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in ExploreService.fetchListings(query:):ExploreService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.fetchListings():ExploreViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.favoriteArticles.getter:ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allListings.filter({bookmarksManager.contains(article: $0)})">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ExploreViewModel.combineFetch():ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self?.filteredListings.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in ExploreViewModel.addSubscriber():ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "search">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in SearchBar.body.getter:SearchBar.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in ExploreView.body.getter:ExploreView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MockExploreService.fetchListings():MockExploreService.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.bookmarks.willset:ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bookmarks">
+            </PersistentString>
+            <PersistentString
+               value = "bookmarks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BookmarkManager.remove(article:):BookmarkManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in BookmarkManager.contains(article:):BookmarkManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ExploreViewModel.fetchListings():ExploreViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in &#x200c;BookmarkView.body.getter:&#x200c;BookmarkView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.getFavorites()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.favoriteListings.getter:ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.object(forKey: &quot;bookmarks&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "allListings.filter({ bookmarks.contains($0.title )})">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.array(forKey: &quot;bookmarks&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.getFavorites():ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allListings.filter({bookmarksManager.contains(article: $0)})">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in &#x200c;BookmarkView.body.getter:&#x200c;BookmarkView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.filterListings():ExploreViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BookmarkManager.init():BookmarkManager.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ExploreViewModel.fetchListings():ExploreViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ExploreViewModel.getFavorites():ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "favorites">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ListingItemView.body.getter:ListingItemView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.filteredListings">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreService.fetchListings():ExploreService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+            <PersistentString
+               value = "output">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ListDetailView.addOrRemoveBookmark(item:):ListDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bookmarkManager.contains(article: item)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MainTabView.body.getter:MainTabView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "exploreViewModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsEndpoints.queryItems.getter:NewsEndpoints.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "queries[&quot;page&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NewsService.handleResponse&lt;&#x3c4;_0_0&gt;(data:response:):NewsService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.statusCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in &#x200c;BookmarkView.body.getter:&#x200c;BookmarkView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.favorites">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in ExploreViewModel.searchArticles():ExploreViewModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #2 in ListingItemView.body.getter:ListingItemView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedItems">
+            </PersistentString>
+            <PersistentString
+               value = "listing.title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExploreViewModel.contains(article:):ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bookmarksManager.contains(article: article)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in &#x200c;BookmarkView.body.getter:&#x200c;BookmarkView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in WishlistView.body.getter:WishlistView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.favoriteListings">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in closure #1 in closure #2 in closure #1 in closure #1 in ListDetailView.body.getter:ListDetailView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.contains(article: listing)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
