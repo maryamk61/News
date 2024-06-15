@@ -23,19 +23,20 @@ class ExploreViewModel: ObservableObject {
     @Published var showEmptyData: Bool = false
     
     //pagination data
-    private var totalItemsAvailable: Int = 0
-    private var itemsLoadedCount: Int = 0
+    var totalItemsAvailable: Int = 0
+    var itemsLoadedCount: Int = 0
     private var totalSearchItemsAvailable: Int = 0
     private var itemsSearchLoadedCount: Int = 0
     @Published var page: Int = 1
     @Published var searchPage: Int = 1
+    var pageSize: Int = 100
     
     var allListings: [Article] = []
     let service: NewsService
     var cancellables = Set<AnyCancellable>()
     var bookmarksManager: BookmarkManager
     
-    init(service: NewsService, bookmarkManager: BookmarkManager) {
+    init(service: NewsService = NewsService(), bookmarkManager: BookmarkManager) {
         self.service = service
         self.bookmarksManager = bookmarkManager
         addSubscriber()
@@ -43,11 +44,11 @@ class ExploreViewModel: ObservableObject {
     }
     
     func getFavorites(){
-        self.favorites = filteredListings.filter({bookmarksManager.contains(title: $0.title)})
+        self.favorites = filteredListings.filter({bookmarksManager.contains(title: $0.title ?? "")})
     }
     
     func addOrRemove(article: Article){
-        bookmarksManager.addOrRemove(title: article.title)
+        bookmarksManager.addOrRemove(title: article.title ?? "")
         self.getFavorites()
     }
     
@@ -56,27 +57,6 @@ class ExploreViewModel: ObservableObject {
     }
     
     func addSubscriber() {
-        service.$allListings
-            .receive(on: DispatchQueue.main)
-            .sink { (completion) in
-                switch completion {
-                case .failure(let error):
-                    print(error)
-                    break
-                default : // default
-                    break
-                }
-            } receiveValue: { [weak self] (response) in
-                if let response = response {
-                    self?.totalItemsAvailable = response.totalResults
-                    self?.filteredListings.append(contentsOf: response.articles)
-                    self?.itemsLoadedCount = response.articles.count
-                    self?.allListings = response.articles
-                }
-                self?.isLoading = false
-            }
-            .store(in: &cancellables)
-        
         $search
             .combineLatest($fromDate)
             .debounce(for: .seconds(0.7), scheduler: DispatchQueue.main)
@@ -91,10 +71,9 @@ class ExploreViewModel: ObservableObject {
                     self?.searchArticles()
                 }
                 
-                self?.isLoading = false
+//                self?.isLoading = false
             }
             .store(in: &cancellables)
-        
     }
     
     // Async way
@@ -153,7 +132,7 @@ class ExploreViewModel: ObservableObject {
                 self?.totalItemsAvailable = response.totalResults
                 self?.filteredListings.append(contentsOf: response.articles)
                 self?.itemsLoadedCount = self?.filteredListings.count ?? 0
-                self?.isLoading = false
+//                self?.isLoading = false
             }
             .store(in: &cancellables)
 
@@ -182,7 +161,7 @@ class ExploreViewModel: ObservableObject {
 //                self?.totalSearchItemsAvailable = response.totalResults
                 self?.filteredListings.append(contentsOf: response.articles)
 //                self?.itemsSearchLoadedCount = self?.filteredListings.count ?? 0
-                self?.isLoading = false
+//                self?.isLoading = false
             }
             .store(in: &cancellables)
 

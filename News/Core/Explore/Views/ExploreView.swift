@@ -21,10 +21,10 @@ struct ExploreView: View {
     var body: some View {
         NavigationStack {
             ZStack(alignment: .center) {
-                if viewModel.isLoading {
-                    ProgressView()
-                        .padding(.trailing, 100)
-                }
+//                if viewModel.isLoading {
+//                    ProgressView()
+//                        .padding(.trailing, 100)
+//                }
                 ScrollView {
                     HStack {
                         SearchBar(search: $viewModel.search)
@@ -49,20 +49,25 @@ struct ExploreView: View {
                                 NavigationLink {
                                     ListDetailView(listing: item)
                                 } label: {
-                                    ListingItemView(listing: item)
-                                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                                        .foregroundStyle(.primary)
-                                        .padding(5)
-                                        .onAppear {
-                                            if item == viewModel.filteredListings.last {
-                                                showMore = true
-                                                if viewModel.search.isEmpty && viewModel.fromDate.isEmpty {
-                                                    viewModel.combineFetch()
+                                    if item.title != "[REMOVED]" {
+                                        ListingItemView(listing: item)
+                                            .clipShape(RoundedRectangle(cornerRadius: 10))
+                                            .foregroundStyle(.primary)
+                                            .padding(5)
+                                            .onAppear {
+                                                if item == viewModel.filteredListings.last && viewModel.itemsLoadedCount != viewModel.totalItemsAvailable {
+                                                    
+                                                    showMore = true
+                                                    if viewModel.search.isEmpty && viewModel.fromDate.isEmpty {
+                                                        viewModel.combineFetch()
+                                                    }
+                                                } else {
+                                                    showMore = false
                                                 }
                                             }
-                                        }
+                                        Divider()
+                                    }
                                         
-                                    Divider()
                                 }
                             }
                             HStack(spacing: 15) {
@@ -70,9 +75,9 @@ struct ExploreView: View {
                                     .foregroundStyle(.secondary)
                                     .font(.callout)
                                     .padding(.vertical, 30)
-                                    .opacity(showMore ? 1.0 : 0.0)
                                 ProgressView()
                             }
+                            .opacity(showMore ? 1.0 : 0.0)
                             
                         }
                         .padding(.vertical,8)

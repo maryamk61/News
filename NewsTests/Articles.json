@@ -1,0 +1,150 @@
+{
+    "status": "ok",
+    "totalResults": 30,
+    "articles":
+    [
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Vinamrata Chaturvedi, Quartz",
+            "title": "Everything to Know About Bitcoin Pizza Day",
+            "description": "On May 22, 2010, a man in Florida paid 10,000 Bitcoin for pizza.Read more...",
+            "url": "https://gizmodo.com/bitcoin-pizza-day-date-origin-history-cryptocurrency-1851487831",
+            "urlToImage": "https://i.kinja-img.com/image/upload/c_fill,h_675,pg_1,q_80,w_1200/98aec6479bad523f5c89763f4acf0cf9.jpg",
+            "publishedAt": "2024-05-20T13:20:00Z",
+            "content": "On January 3, 2009, Bitcoins creator, Satoshi Nakamoto, mined the first block of the Bitcoin blockchain, known as the Genesis Block, which contained a reward of 50 Bitcoin. The technical foundations … [+1156 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Joel Khalili",
+            "title": "Craig Wright Lied About Creating Bitcoin And Faked Evidence, Judge Rules",
+            "description": "A UK judge has determined that Craig Wright forged evidence in a campaign to prove he is Satoshi Nakamoto, creator of Bitcoin, in a move that prevents him from bringing further lawsuits in the country.",
+            "url": "https://www.wired.com/story/craig-wright-lied-faked-evidence-bitcoin-judge-says/",
+            "urlToImage": "https://media.wired.com/photos/663964ab2a04ee031b4d1808/191:100/w_1280,c_limit/Craig-Wright-Sentencing-Business-2024583568.jpg",
+            "publishedAt": "2024-05-20T11:01:15Z",
+            "content": "Weve seen a cascading effect from the pronouncement on a host of other litigations globally, says Grewal. For people outside of crypto, [all this] might sound cartoonish. But with Wrights claims fall… [+3320 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Joel Khalili",
+            "title": "FTX Creditors Say Payout Deal Is 'an Insult'—and Plan to Revolt",
+            "description": "FTX has a plan to repay its former crypto customers more than the billions of dollars they lost in the latest bankruptcy proposal. But some will reject it anyway.",
+            "url": "https://www.wired.com/story/ftx-creditors-crypto-payout-rejection/",
+            "urlToImage": "https://media.wired.com/photos/663ba309e6755459097533ca/191:100/w_1280,c_limit/FTX-Bankruptcy-Business-GettyImages-1245052532.jpg",
+            "publishedAt": "2024-05-08T17:00:02Z",
+            "content": "Some creditors of the bankrupt crypto exchange FTX are preparing to reject a plan that would see them recover 118 percent of the money they lost. The proposal is far less generous than it might seem,… [+2945 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Radek Zielinski",
+            "title": "El Salvador’s Bitcoin holdings reach $373M",
+            "description": "According to a report by the country’s “Bitcoin Office,” a government entity overseeing all Bitcoin-related projects, El Salvador could hold… Continue reading El Salvador’s Bitcoin holdings reach $373M\nThe post El Salvador’s Bitcoin holdings reach $373M appea…",
+            "url": "https://readwrite.com/el-salvadors-bitcoin-holdings-reach-373m/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/25b91b12-cd57-4b3e-b4e5-4be84fbf56bd.webp",
+            "publishedAt": "2024-05-15T17:38:10Z",
+            "content": "According to a report by the country’s “Bitcoin Office,” a government entity overseeing all Bitcoin-related projects, El Salvador could hold up to 5,750 BTC.\r\nSince 2021, the nation has mined nearly … [+2540 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Petar Jovanović",
+            "title": "Bitcoin Price Prediction June 2024 – Here’s Why $100k May Be Next",
+            "description": "Bitcoin price started this week relatively slowly, but BTC is still trading around $69k as we explore the bitcoin price… Continue reading Bitcoin Price Prediction June 2024 – Here’s Why $100k May Be Next\nThe post Bitcoin Price Prediction June 2024 – Here’s Wh…",
+            "url": "https://readwrite.com/bitcoin-price-prediction-june-2024-heres-why-100k-may-be-next/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/Bitcoin-price.jpg",
+            "publishedAt": "2024-05-27T14:21:36Z",
+            "content": "Bitcoin price started this week relatively slowly, but BTC is still trading around $69k as we explore the bitcoin price forecast and why $100k is “on the table” for June.\r\nBitcoin Price Forecast for … [+3622 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "fdemott@insider.com (Filip De Mott)",
+            "title": "Bitcoin could see a wave of forced selling as miners face the reality of lower rewards post-halving, research firm says",
+            "description": "\"If miners were forced to sell even a fraction of their holdings over the coming month this would have a negative impact on markets,\" Kaiki Research wrote.",
+            "url": "https://markets.businessinsider.com/news/currencies/bitcoin-price-supply-crypto-currency-miners-btc-sell-off-decline-2024-5",
+            "urlToImage": "https://i.insider.com/6643af41b4abc992e8c96de5?width=1200&format=jpeg",
+            "publishedAt": "2024-05-15T12:17:10Z",
+            "content": "Markets have long considered bitcoin's recent halving as a major price bolster, but it could bring a wave of selling from one corner of the sector, according to Kaiko Research.\r\nThe April halving is … [+1708 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Radek Zielinski",
+            "title": "Bitcoin and Ethereum ETNs listed on London Stock Exchange",
+            "description": "The London Stock Exchange (LSE) has begun trading Bitcoin (BTC) and Ethereum (ETH) exchange-traded notes (ETNs), potentially paving the way… Continue reading Bitcoin and Ethereum ETNs listed on London Stock Exchange\nThe post Bitcoin and Ethereum ETNs listed o…",
+            "url": "https://readwrite.com/bitcoin-and-ethereum-etns-listed-on-london-stock-exchange/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/1bf8e383-82ee-4843-b701-549b9475eb3f.webp",
+            "publishedAt": "2024-05-28T13:11:16Z",
+            "content": "The London Stock Exchange (LSE) has begun trading Bitcoin (BTC) and Ethereum (ETH) exchange-traded notes (ETNs), potentially paving the way for the UK to become Europe’s crypto hub, according to Alex… [+2638 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Petar Jovanović",
+            "title": "Bitcoin Indicator Flashes “Buy” Signal as BTC Price Remains Flat – Next Crypto to Explode?",
+            "description": "Following positive Ethereum ETF news, the Bitcoin price surged from around $66k to over $71k before consolidating around $70k. As… Continue reading Bitcoin Indicator Flashes “Buy” Signal as BTC Price Remains Flat – Next Crypto to Explode?\nThe post Bitcoin Ind…",
+            "url": "https://readwrite.com/bitcoin-indicator-flashes-buy-signal-as-btc-price-remains-flat-next-crypto-to-explode/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/Copy-of-P2P-Review-3.png",
+            "publishedAt": "2024-05-22T11:04:27Z",
+            "content": "Following positive Ethereum ETF news, the Bitcoin price surged from around $66k to over $71k before consolidating around $70k. As we analyze BTC price predictions, let’s explore the potentially explo… [+3861 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Radek Zielinski",
+            "title": "BlackRock’s Bitcoin ETF overtakes Grayscale’s GBTC",
+            "description": "BlackRock’s spot Bitcoin (BTC) exchange-traded fund (ETF), IBIT, has overtaken Grayscale’s GBTC to become the largest product of its kind.… Continue reading BlackRock’s Bitcoin ETF overtakes Grayscale’s GBTC\nThe post BlackRock’s Bitcoin ETF overtakes Grayscal…",
+            "url": "https://readwrite.com/blackrocks-bitcoin-etf-overtakes-grayscales-gbtc/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/7a340d79-5b46-4ae2-b016-80aff63a33cd.webp",
+            "publishedAt": "2024-05-29T14:37:44Z",
+            "content": "BlackRock’s spot Bitcoin (BTC) exchange-traded fund (ETF), IBIT, has overtaken Grayscale’s GBTC to become the largest product of its kind.\r\nAccording to data shared by the company, this shift occurre… [+2603 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Radek Zielinski",
+            "title": "Bitcoin futures trading sets another record as crypto confidence climbs",
+            "description": "According to data shared by CoinGlass, Bitcoin (BTC) traders have set a new record for the highest-ever positions on BTC-tracked… Continue reading Bitcoin futures trading sets another record as crypto confidence climbs\nThe post Bitcoin futures trading sets an…",
+            "url": "https://readwrite.com/bitcoin-futures-trading-sets-another-record-as-crypto-confidence-climbs/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/06/cf5c9062-2edb-4cce-afff-1410e6d7acce.webp",
+            "publishedAt": "2024-06-07T19:56:27Z",
+            "content": "According to data shared by CoinGlass, Bitcoin (BTC) traders have set a new record for the highest-ever positions on BTC-tracked futures, with open interest surpassing $37.7 billion on Thursday. This… [+1929 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "ReadWrite"
+            },
+            "author": "Radek Zielinski",
+            "title": "Bitcoin surges 7.5% as global central banks ease",
+            "description": "Bitcoin (BTC) experienced its most significant single-day gain in nearly two months on Wednesday, surging over 7.5% to reach $66,250.… Continue reading Bitcoin surges 7.5% as global central banks ease\nThe post Bitcoin surges 7.5% as global central banks ease …",
+            "url": "https://readwrite.com/bitcoin-surges-7-5-as-global-central-banks-ease/",
+            "urlToImage": "https://readwrite.com/wp-content/uploads/2024/05/b6fc31bb-a0c3-424c-9f83-ef1c6a070118.webp",
+            "publishedAt": "2024-05-16T16:23:22Z",
+            "content": "Bitcoin (BTC) experienced its most significant single-day gain in nearly two months on Wednesday, surging over 7.5% to reach $66,250.\r\nThe development follows recent reports that El Salvador’s Bitcoi… [+2298 chars]"
+        }
+    ]
+}

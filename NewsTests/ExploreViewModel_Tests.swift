@@ -11,7 +11,7 @@ import Combine
 
 @MainActor
 final class ExploreViewModel_Tests: XCTestCase {
-    var cancellable = Set<AnyCancellable>()
+    var cancellable: AnyCancellable? = nil
     var vm: ExploreViewModel?
     var bookmarkManager: BookmarkManager?
     
@@ -30,16 +30,16 @@ final class ExploreViewModel_Tests: XCTestCase {
             XCTFail()
             return
         }
-        var listings = [Article]()
         let expectation = XCTestExpectation(description: "Should return items after 10 seconds")
         
-        vm.$search
+        cancellable = vm.$search
             .dropFirst()
-            .sink(receiveValue: {
-                XCTAssertEqual($0, "google")
+            .sink(receiveValue: { [weak self] search in
+                XCTAssertEqual(search, "google")
                 expectation.fulfill()
+                self?.cancellable = nil
             })
-            .store(in: &cancellable)
+            
         
         vm.search = "google"
     }
@@ -69,6 +69,24 @@ final class ExploreViewModel_Tests: XCTestCase {
         XCTAssertFalse(bookmarkManager.contains(title: title))
         
     }
-
-
+    
+    func test_ExploreViewModel_search_shouldFetchSearchedItems() {
+        guard let vm else {
+            XCTFail()
+            return
+        }
+        let expectation = XCTestExpectation(description: "Should return items after 10 seconds")
+        
+        cancellable = vm.$search
+            .dropFirst()
+            .sink(receiveValue: { [weak self] _ in
+                vm.searchArticles()
+                expectation.fulfill()
+                self?.cancellable = nil
+            })
+        vm.search = "google"
+        wait(for: [expectation], timeout: 10)
+        XCTAssertGreaterThan(vm.filteredListings.count, 0)
+        
+    }
 }

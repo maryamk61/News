@@ -36,7 +36,7 @@ struct ListDetailView: View {
                         .frame(height: 250)
                         .padding(.top, -30)
                 VStack(alignment: .leading, spacing: 20) {
-                    Text(listing.title)
+                    Text(listing.title ?? "")
                         .font(.title2)
                         .fontWeight(.semibold)
                     HStack {
@@ -55,8 +55,8 @@ struct ListDetailView: View {
                         Button(action:  {
                             viewModel.addOrRemove(article: listing)
                         }, label: {
-                            Image(systemName: viewModel.contains(title: listing.title) ?  "bookmark.fill" : "bookmark")
-                                .foregroundStyle(viewModel.contains(title: listing.title) ? heartColor : .gray)
+                            Image(systemName: viewModel.contains(title: listing.title ?? "") ?  "bookmark.fill" : "bookmark")
+                                .foregroundStyle(viewModel.contains(title: listing.title ?? "") ? heartColor : .gray)
                                 .font(.title2)
                                 .shadow(color: .white ,radius: 1)
                                 .contentTransition(.symbolEffect(.replace))

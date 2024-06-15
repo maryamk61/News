@@ -43,7 +43,7 @@ enum NewsEndpoints: EndPointProviderProtocol {
             
             if ((queries["q"]?.isEmpty) == nil) || ((queries["from"]?.isEmpty) == nil) {
                 items.append( URLQueryItem(name: "language", value: "en"))
-                items.append( URLQueryItem(name: "domains", value: "techcrunch.com,engadge.com,associated-press,usa-today,bbc.co.uk,cnn,the-washington-post,reuters,google-news"))
+                items.append( URLQueryItem(name: "domains", value: "techcrunch.com,thenextweb.com"))
             }
             
             if ((queries["q"]?.isEmpty) != nil)  {

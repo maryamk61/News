@@ -33,12 +33,7 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "closure #1 in ExploreViewModel.bookmarks.willset:ExploreViewModel.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "bookmarks.count">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "ExploreViewModel.combineFetch():ExploreViewModel.swift">
       </ContextState>
       <ContextState
          contextName = "ExploreService.fetchListings(query:):ExploreService.swift">
@@ -57,7 +52,31 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ExploreViewModel.combineFetch():ExploreViewModel.swift">
+         contextName = "MockNewsService.readJsonFile():MockNewsService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle.main.url(forResource: &quot;Articles&quot;, withExtension: &quot;json&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in WishlistView.body.getter:WishlistView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.favoriteListings">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #2 in closure #1 in closure #2 in closure #1 in closure #1 in closure #1 in ExploreView.body.getter:ExploreView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.filteredListings.count">
+            </PersistentString>
+            <PersistentString
+               value = "viewModel.totalItemsAvailable">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "ListDetailView.addOrRemoveBokmark(title:):ListDetailView.swift">
@@ -115,15 +134,15 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "closure #1 in SearchBar.body.getter:SearchBar.swift">
+      </ContextState>
+      <ContextState
          contextName = "closure #3 in ExploreViewModel.addSubscriber():ExploreViewModel.swift">
          <PersistentStrings>
             <PersistentString
                value = "search">
             </PersistentString>
          </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "closure #1 in SearchBar.body.getter:SearchBar.swift">
       </ContextState>
       <ContextState
          contextName = "closure #2 in closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in ExploreView.body.getter:ExploreView.swift">
@@ -289,18 +308,21 @@
          contextName = "closure #1 in closure #1 in closure #1 in closure #1 in closure #1 in &#x200c;BookmarkView.body.getter:&#x200c;BookmarkView.swift">
       </ContextState>
       <ContextState
-         contextName = "closure #1 in closure #1 in closure #1 in closure #1 in WishlistView.body.getter:WishlistView.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "viewModel.favoriteListings">
-            </PersistentString>
-         </PersistentStrings>
+         contextName = "NewsService_Tests.test_MockNewsService_combineFetch_shouldReturnItems():NewsService_Tests.swift">
       </ContextState>
       <ContextState
          contextName = "closure #2 in closure #1 in closure #2 in closure #1 in closure #1 in ListDetailView.body.getter:ListDetailView.swift">
          <PersistentStrings>
             <PersistentString
                value = "viewModel.contains(article: listing)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ExploreViewModel.bookmarks.willset:ExploreViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bookmarks.count">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

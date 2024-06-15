@@ -27,7 +27,7 @@ struct ListingItemView: View {
                 .frame(height: 250)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
                 .border(Color(.systemGray6), width: 0.5)
-            Text(listing.title)
+            Text(listing.title ?? "")
                 .font(.headline)
                 .bold()
             HStack {

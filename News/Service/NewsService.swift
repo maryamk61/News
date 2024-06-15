@@ -10,6 +10,7 @@ import Combine
 import Alamofire
 
 protocol NewsServiceProtocol {
+    
     func asyncFetch<T: Decodable>(endpoint: EndPointProviderProtocol, responseModel: T.Type) async throws -> T
     func combineFetch<T: Decodable>(endpoint: EndPointProviderProtocol, responseModel: T.Type) -> AnyPublisher<T, ApiError>
 }
@@ -17,7 +18,6 @@ protocol NewsServiceProtocol {
 //GET https://newsapi.org/v2/headlines?q=Apple&from=2024-05-05&sortBy=popularity&apiKey=API_KEY
 class NewsService: NewsServiceProtocol {
     
-    @Published var allListings: NewsResponse?
     @Published var newsError: ApiError?
     var cancellables = Set<AnyCancellable>()
     
